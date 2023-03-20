@@ -6,3 +6,35 @@ body {
     width: 300px;
     height: 300px;
 }
+
+.collapseText {
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn {
+    padding: 20px;
+    margin: 20px;
+    color: yellow;
+    background: #000;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 0.5s ease-in;
+}
+
+.btn:hover {
+    background: yellow;
+    color: #000;
+    transform: scale(1.1);
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.open {
+    opacity: 1;
+}
